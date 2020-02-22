@@ -11,26 +11,26 @@
 </head>
 <body class="body">
     <header class="header">
-        <img class="logo" src="/img/Logo.png" alt="logo">
+        <img class="logo" src="img/Logo.png" alt="logo">
     </header>
     <main class="main">
         <div class="main-container">
             <h1 class="main-container__h1">Checkout</h1>
-            <h2 class="main-container__h2">Product</h2>
+            <h2 class="main-container__h2">Products</h2>
             <div class="main-container__table">
                 <div class="main-container__product">
                     <a class="main-container__a" href="#">Apple® - iPad® with Retina® display Wi-Fi - 32GB - White</a>
-                    <p>499.00</p>
+                    <p>$<span class="main-container__span_font-size">499.00</span></p>
                 </div>
                 <div class="main-container__product">
                     <a class="main-container__a" href="#">16GB A Series Walkman Video MP3</a>
-                    <p>130.00</p>
+                    <p>$<span class="main-container__span_font-size">130.00</span></p>
                 </div>
             </div>
             <h2 class="main-container__h2">Shipping method</h2>
             <div class="main-container__accessories">
                 <p>FedEx</p>
-                <p>13.99</p>
+                <p>$<span class="main-container__span_font-size">13.99</span></p>
             </div>
             <h2 class="main-container__h2">Payment method</h2>
             <div class="main-container__payment-method">
@@ -42,7 +42,7 @@
                 <div  class="main-container__data">
                     <div class="main-container__card">
                         <p class="main-container__card-p main-container__card-p_margin-top ">Card number<span class="main-container__span"> *</span></p>
-                        <input id="inputCard" class="main-container__input main-container__input_padding-left" name="card" minlength="19" maxlength="22" type="text" oninvalid="this.setCustomValidity('Введён неверный номер карты')" oninput="setCustomValidity('')" required >
+                            <input id="inputCard" class="main-container__input main-container__input_padding-left main-container__card-img" name="card" minlength="19" maxlength="22" type="text" oninvalid="this.setCustomValidity('Введён неверный номер карты')" oninput="setCustomValidity('')" required >
                         <p class="main-container__card-p">Valid thru (mm/yy)<span class="main-container__span"> *</span></p>
                         <div class="main-container__card-data">
                             <input class="main-container__input-data main-container__input" type="text" name="month" maxlength="2" oninput="maxValue(this);" required>
@@ -53,10 +53,10 @@
                         <input class="main-container__input  main-container__input_padding-left" type="text" name="name" maxlength="40" oninput="this.value = this.value.replace(/[^A-Za-z_\s]/, '');" required>
                     </div>
                     <div class="main-container__cvv">
-                        <p class="main-container__card-p main-container__card-p_margin-top">cvv/cvc <span class="main-container__span"> *</span></p>
+                        <p class="main-container__card-p main-container__card-p_margin-top">CVV/CVC <span class="main-container__span"> *</span></p>
                         <div class="">
                             <input class="main-container__input main-container__input-cvv" name="cvv" type="text" step="2" maxlength="3" oninput="this.value = this.value.replace(/[^-\d]/, '');" required>
-                            <img class="main-container__icon" src="/img/icon.png" alt="" >
+                            <img class="main-container__icon" src="img/icon.png" alt="" >
                         </div>
                     </div>
                 

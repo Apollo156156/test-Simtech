@@ -5,13 +5,13 @@
 }
 .body{
     font-family: 'Open Sans', sans-serif;
-   max-width: 1280px;
+   max-width: 1024px;
    margin: 0 auto;
    color: #4d4c4c; 
    
 }
 .main-container{
-    max-width: 50%;
+    max-width: 60%;
     margin-left: auto;
     margin-right: auto ;
     margin-top: 70px;
@@ -51,6 +51,7 @@
     margin-bottom: 30px;
     margin-top: 15px;
     margin-left: 10px;
+    font-size: 18px;
 }
 .main-container__payment-method{
     display: flex;
@@ -67,6 +68,9 @@
     border: 1px solid #333;
     font-size: 15px;
 }
+.main-container__span_font-size{
+    font-size: 18px;
+}
 .main-container__button:focus{
     border: 1px solid #1469d9;
     background: #1469d9;
@@ -74,6 +78,7 @@
 }
 .main-container__a{
     color: #1469d9;
+    font-size: 18px;
 }
 .main-container__span{
     color: red;
@@ -104,6 +109,7 @@
     height: 35px;
     border: 1px solid #6a81bd;
     opacity: 0.5;
+    
 }
 .main-container__card-p{
     margin-top: 15px;
@@ -124,17 +130,26 @@
 }
 .main-container__input_padding-left{
     padding-left: 12px;
+    width: 97%;
 }
 .main-container__icon{
     position: sticky;
     width: 9%;
-    margin-left: -30px;
+    margin-left: -31px;
     vertical-align: middle;
     z-index: 100;
     
 }
+
+.main-container__card-img{
+    background-image: url(img/card.png);
+    background-repeat: no-repeat;
+    background-size: 45px;
+    background-position-x: 98%;
+    background-position-y: center;
+}
 .main-container__icon:hover{
-    content: url(/img/cvv.png);
+    content: url(img/cvv.png);
     position: absolute;
     max-width: 8%;
     vertical-align: top;
