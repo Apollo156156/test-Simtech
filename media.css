@@ -1,0 +1,56 @@
+@media screen and (max-width: 1024px) {
+    .main-container{
+        max-width: 65%;
+        margin-top: 40px;
+    } 
+    .logo{
+        width: 20%;
+    }
+    .main-container__a{
+      margin-right: 20px;  
+      font-size: 15px;
+    }
+    .main-container__product{
+        font-size: 15px;
+    }
+    .main-container__span_font-size{
+        font-size: 15px;
+    }
+    .main-container__h1{
+        font-size: 25px;
+    }
+    .main-container__h2{
+        font-size: 18px;
+    }
+    .main-container__dialog{
+        width: 95%;
+    }
+    .dialog__button{
+        margin-right: 15px;
+    }
+    }
+    @media screen and (max-width: 768px) {
+        .main-container{
+            max-width: 80%;
+            margin-top: 40px;
+        } 
+        .logo{
+            width: 30%;
+        }
+        .main-container__data{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .main-container__card{
+            max-width: 100%;
+        }
+        .main-container__cvv{
+            padding: 15px 25px;
+            
+        }
+        .main-container__icon{
+           
+        }
+        .main-container__icon:hover{
+        }
+        }
